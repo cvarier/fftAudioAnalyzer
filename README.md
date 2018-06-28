@@ -1,6 +1,6 @@
 ## Description
 
-This is a simple audio analyzer written in Java which uses the **Fast Fourier Transform algorithm** to filter the harmonics of a specified frequency from an input audio signal and compute its power spectrum. Here's a step-by-step description of what the program does:
+This is a simple audio frequency analyzer written in Java which uses the **Fast Fourier Transform algorithm** to filter the harmonics of a specified frequency from an input audio signal and compute its power spectrum. Here's a step-by-step description of what the program does:
 
 1. The program first samples an input signal, computes its FT, its discretized frequencies and power spectrum.
 2. It then filters it by a specified frequency, `freq1`, and its first two harmonics, `freq2` and `freq3`, in the frequency domain. 
