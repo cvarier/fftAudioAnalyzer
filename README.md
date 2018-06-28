@@ -13,6 +13,6 @@ Here's an example of a signal the program would read:
 
 <p align="center"><img src ="https://user-images.githubusercontent.com/16710726/42006370-6571f06e-7a47-11e8-982e-0d7b4608a7f8.png" width = "600" height = "300"/>
 
-The program will then output the corresponding power spectrum of that signal from its Fourier Transform:
+The program will then output the corresponding power spectrum of that signal from its Fourier transform:
 
 <p align="center"><img src ="https://user-images.githubusercontent.com/16710726/42006332-35564efc-7a47-11e8-9a6b-00bfeff5e059.png" width = "600" height = "300"/>
