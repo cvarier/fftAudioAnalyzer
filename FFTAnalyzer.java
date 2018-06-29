@@ -3,10 +3,10 @@
 
 * Author: Chaitanya Varier
 * Description: Samples an input signal, computes its FT and its discretized frequencies and power spectrum.
-			   The program then filters it by a specified frequency, freq1, and its first two harmonics, 
-			   freq2 and freq3, in the frequency domain. Next, the inverse FT is computed from the cleaned
-			   signal and used to produce an audio file. Finally, the plots for the input signal and 
-			   computed power spectrum are outputted.
+	       The program then filters it by a specified frequency, freq1, and its first two harmonics, 
+	       freq2 and freq3, in the frequency domain. Next, the inverse FT is computed from the cleaned
+	       signal and used to produce an audio file. Finally, the plots for the input signal and 
+	       computed power spectrum are outputted.
 */
 
 import java.io.*;
@@ -42,7 +42,7 @@ public class Fourier {
 		//////////////////////////////////////
 		
 		// Create array to hold the signal values
-		double [] time = new double[N];
+		double[] time = new double[N];
 		double[] signal = new double[N];
 
 		time[0] = 0;
